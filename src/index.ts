@@ -1,8 +1,8 @@
 import { createRequire } from 'node:module'
 import inject from '@rollup/plugin-inject'
-import stdLibBrowser from 'node-stdlib-browser'
-import { handleCircularDependancyWarning } from 'node-stdlib-browser/helpers/rollup/plugin'
-import esbuildPlugin from 'node-stdlib-browser/helpers/esbuild/plugin'
+import stdLibBrowser from '@spiritbro1/stdlib-browser'
+import { handleCircularDependancyWarning } from '@spiritbro1/stdlib-browser/helpers/rollup/plugin'
+import esbuildPlugin from '@spiritbro1/stdlib-browser/helpers/esbuild/plugin'
 import type { Plugin } from 'vite'
 
 interface PolyfillOptions {
